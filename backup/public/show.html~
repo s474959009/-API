@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>郑大街</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="../../../css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+<div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">郑大街</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页</a></li>
+            <li><a href="./about" >关于我们</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="visible-lg" src="../../../img/big1.jpg">
+          <img class="visible-xs visible-sm" src="../../../img/big1_1.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="visible-xs visible-sm">科学全面的分类</h1>
+              <p class="visible-xs visible-sm">从学生的实际生活考虑，对物品分类进行了科学的设计，基本涵盖了大学生活所需要的全部物品。</p>
+              <p><a class="btn btn-lg btn-danger" href="#" role="button">点击下载</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="visible-lg" src="../../../img/big2.jpg">
+          <img class="visible-xs visible-sm" src="../../../img/big2_1.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="visible-xs visible-sm">简单灵活的管理</h1>
+              <p class="visible-xs visible-sm">物品信息发布，物品信息修改，物品售出下架，简单灵活的物品管理方式，让你更省心更省力。</p>
+              <p><a class="btn btn-lg btn-danger" href="#" role="button">点击下载</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="visible-lg" src="../../../img/big3.jpg">
+          <img class="visible-xs visible-sm" src="../../../img/big3_1.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="visible-xs visible-sm">方便贴心的设置</h1>
+              <p class="visible-xs visible-sm">提前填写默认信息，发布物品快人一步！更有清除缓存，修改密码为你的帐号和手机保驾护航。</p>
+              <p><a class="btn btn-lg btn-danger" href="#" role="button">点击下载</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="../../../img/zzd.jpeg" alt="Generic placeholder image">
+          <h2>在郑大</h2>
+          <p>我们的新浪微博帐号，如果你有什么好的建议请随时@ 我们，欢迎关注。</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="../../../img/icon.png" alt="Generic placeholder image">
+          <h2>郑大街</h2>
+          <p>如果你在应用的使用过程中遇到了问题，或者有更好的建议，可以在应用中反馈给我们，或者在本页面最后留下你的问题和宝贵建议，我们会第一时间与你联系。</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-rounded" src="../../../img/bdyk.jpg" alt="Generic placeholder image">
+          <h2>八点一刻</h2>
+          <p>微信公众平台，每天给你带来最新最好玩的校园资讯，还有更多实用的功能等你发现。如果有问题也可以向八点一刻反馈！</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">毕业季倒计时 
+            <br/><span class="text-muted">你还在等待什么</span></h2>
+          <p class="lead">有了<strong>郑大街</strong>，你就能在离校前轻松处理完全部家当。再也不用和其他同学在炎炎烈日下斗智斗勇。</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="../../../img/1.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="../../../img/2.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">真心喜欢的物件<br/><span class="text-muted">有缘人在这里</span></h2>
+          <p class="lead">费尽千辛万苦，你只想寻到喜欢的物件。快来<strong>郑大街</strong>，你会在这里找到它！</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">我们在郑大<br/><span class="text-muted">我们在努力</span></h2>
+          <p class="lead">郑大街web版，敬请期待</p>
+        </div>        
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="../../../img/3.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">郑大街的未来<br/><span class="text-muted">你有什么想说的</span></h2>
+        <p class="lead">任何建议都可以和我们说，认真提供建议的同学还有机会获得<strong>小礼品</strong>哦！</p>
+      </div>
+      <div class="col-md-5">
+        <form >
+        <div class="form-group">
+          <label>姓名</label>
+          <input type="name" class="form-control" placeholder="你的称呼">
+        </div>
+        <div class="form-group">
+          <label>联系方式</label>
+          <input type="email" class="form-control"  placeholder="方便的联系方式">
+        </div> 
+        <div class="form-group">
+        <label>意见/建议</label>     
+        <textarea class="form-control" rows="3" placeholder="认真填写，会有小礼品哦！"></textarea>
+        </div>  
+        <button type="submit" class="btn btn-default">发送</button>
+      </form>
+      </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">回到顶部</a></p>
+        <p>&copy; 2014 AlphaThink All Rights Reserved. 
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/holder.min.js"></script>
+  </body>
+</html>
+
